@@ -1,7 +1,7 @@
 .row {
 
-    max-width:$grid-width;
-    background-color: #eee;
+    max-width: $grid-width ;
+    
     margin: 0 auto;
    
 
@@ -14,7 +14,7 @@
 
     //selector for all .col- classes to help pass the properties
     [class^="col-"] {
-        background-color: orangered;
+        
         float: left;
 
         &:not(:last-child) {
