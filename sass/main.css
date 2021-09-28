@@ -1,8 +1,21 @@
 /*
+0-600px:     Phone
+600-900px:   Tablet
+900-1200px:  Tablet landscape
+600-900px: Tablet portrait
+[1200-1800] is where our normal styles apply
 
+1800px + : Big Desktop
 
+*/
+/*
+$breakpoint argument choices:
+-phone
+-tab part
+-tab land
+-big-desktop
 
-
+em=16px
 */
 @-webkit-keyframes moveInLeft {
   0% {
@@ -108,6 +121,48 @@
 
 html {
   font-size: 62.5%;
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
 }
 
 body {
