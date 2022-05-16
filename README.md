@@ -31,3 +31,4 @@ $ npm start
 ```
 
 ## Preview
+[[images/natours.jpg]]
