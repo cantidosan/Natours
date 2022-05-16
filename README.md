@@ -9,8 +9,13 @@
 
 
 ## General info
-
-
+<p>I wanted to have a more intimate knowledge of
+ the most basic styling patterns available to 
+  modern web development. It serves as the
+ foundation for most modern styling frameworks
+and i felt before diving into them i should at
+leastbrush up on those skills.
+</p>
 
 ## Technologies
 Project is created with:
