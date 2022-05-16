@@ -31,4 +31,4 @@ $ npm start
 ```
 
 ## Preview
-[[images/natours.jpg]]
+[[images/natours.JPG]]
